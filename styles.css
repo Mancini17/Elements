@@ -1,0 +1,156 @@
+/* Elements */
+
+body {
+	background-color: deepskyblue;
+	color: black;
+	font-family: sans-serif;
+	line-height: 0;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    animation-name: color;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+.line-2 {
+	transform: rotate(5deg);
+	position: absolute;
+	top: 5em;
+}
+
+.square {
+	border: 1px solid black;
+	height: 50px;
+	width: 50px;
+    transform: scale(0) rotate(50deg);
+    position: absolute;
+    left: 10em;
+    top: 10em;
+    animation-name: enlarge;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.square-2 {
+	animation-delay: 0.5s;
+}
+.square-3 {
+	animation-delay: 1s;
+}
+.square-4 {
+	animation-delay: 1.5s;
+}
+.square-5 {
+	animation-delay: 2s;
+}
+.square-6 {
+	animation-delay: 2.5s;
+}
+.square-7 {
+	animation-delay: 3s;
+}
+.square-8 {
+	animation-delay: 3.5s;
+}
+
+.square-9 {
+	animation-delay: 4s;
+}
+
+.square-10 {
+	animation-delay: 4.5s;
+}
+
+.square-11 {
+	animation-delay: 5s;
+}
+
+.square-12 {
+	animation-delay: 5.5s;
+}
+
+.square-13 {
+	animation-delay: 6s;
+}
+
+.square-14 {
+	animation-delay: 6.5s;
+}
+
+.square-15 {
+	animation-delay: 7s;
+}
+
+.square-16 {
+	animation-delay: 7.5s;
+}
+@keyframes enlarge {
+	0% {
+		transform: scale(0) rotate(-50deg);
+	}
+	100% {
+		transform: scale(50) rotate(-10deg);
+	}
+}
+
+
+@keyframes color {
+	0% {
+		background-color: blue;
+		transform: translate(0vw,0vw) rotate(0);
+	}
+	
+	10% {
+		background-color: purple;
+		transform:translate(5vw,0vw) rotate(10deg)
+	}
+
+	25% {
+		background-color: red;
+		transform: translate(10vw,0vw) rotate(20deg);
+	}
+	
+	40%{
+		background-color: lime;
+		transform: translate(12.5vw,0vw) rotate(40deg);
+	}
+
+	50% {
+		background-color: yellow;
+		transform: translate(15vw,5vh) rotate(50deg);
+	}
+	
+	65%{
+		background-color: pink;
+		transform: translate(17vw,12.5vw) rotate(70deg);
+	}
+
+
+	75% {
+		background-color: green;
+		transform: translate(18vw,20vh) rotate(100deg);
+	}
+	
+	85%{
+		background-color: navy;
+		transform: translate(19vw,20vw) rotate(125deg);
+	}
+
+	100% {
+		background-color: orange;
+		transform: translate(20vw,20vh) rotate(150deg);
+	}
+}
+
+
+
+
+
+
+
+
+
